@@ -9,9 +9,9 @@ document.querySelectorAll('#nav').forEach((e) => {
     <a href="./galaxy.html">Galaxy</a>  
     <a href="./iss.html">ISS</a>
     <a href="./rover.html">Rover</a>
-    <a href="#more">Asteroid Belt</a>
+    <a href="./asteroidbelt.html">Asteroid Belt</a>
     <a href="./NAVIC-satellite.html"> NavIC Satellite</a>
-    <a href="#friends">Quiz</a>
+    <a href="./quiz.html">Quiz</a>
     
     </div>
     `

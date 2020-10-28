@@ -37,6 +37,24 @@
   text-align: center;
   background-size: cover;
 }
+.aestroidbeltheader {
+  width: 100vmax;
+  height: 80%;
+  background-color: black;
+  background-image: url(../images/aestroidbelt-header.jpg);
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
+.quizheader {
+  width: 100vmax;
+  height: 80%;
+  background-color: black;
+  background-image: url(../images/quiz-header.jpg);
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
 .roverheader {
   width: 100vmax;
   height: 80%;
