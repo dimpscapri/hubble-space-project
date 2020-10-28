@@ -28,6 +28,15 @@
   text-align: center;
   background-size: cover;
 }
+.navicheader {
+  width: 100vmax;
+  height: 80%;
+  background-color: black;
+  background-image: url(../images/navic-satelite-header.jpg);
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
 .hubbleheader {
   width: 100vmax;
   height: 80%;

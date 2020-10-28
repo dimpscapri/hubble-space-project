@@ -10,7 +10,7 @@ document.querySelectorAll('#nav').forEach((e) => {
     <a href="#base">ISS</a>
     <a href="#custom">Rover</a>
     <a href="#more">Asteroid Belt</a>
-    <a href="NAVIC-satellite"> NavIC Satellite</a>
+    <a href="NAVIC-satellite.html"> NavIC Satellite</a>
     <a href="#friends">Quiz</a>
     
     </div>
