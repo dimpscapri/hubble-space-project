@@ -82,6 +82,16 @@
   text-align: center;
   background-size: cover;
 }
+.issheader {
+  width: 100vmax;
+  height: 80%;
+  background-color: black;
+  background-image: url(../images/international-space-station-67647_1920.jpg);
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
+
 .quote {
   color: white;
   font-size: 20px;
@@ -150,7 +160,7 @@
 }
 
 @keyframes counter {
-  0vmax {
+  0% {
     counter-increment: count 0;
   }
   10% {
