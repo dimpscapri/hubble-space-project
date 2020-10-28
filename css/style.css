@@ -37,6 +37,15 @@
   text-align: center;
   background-size: cover;
 }
+.roverheader {
+  width: 100vmax;
+  height: 80%;
+  background-color: black;
+  background-image: url(../images/rover-header.jpg);
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
 .hubbleheader {
   width: 100vmax;
   height: 80%;
