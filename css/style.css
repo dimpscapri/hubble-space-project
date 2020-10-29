@@ -25,6 +25,15 @@
     margin-left: 10px;
     width: 20%;
   }
+  .imgleft {
+    float: left;
+    margin-left: 10px;
+    width: 20%;
+  }
+  .imgcenter {
+    float: center;
+    width: 50%;
+  }
 
   .internalheading {
     color: white;
@@ -60,7 +69,16 @@
   .imgright {
     float: right;
     margin-left: 10px;
-    width: 40%;
+    width: 100%;
+  }
+  .imgleft {
+    float: left;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .imgcenter {
+    float: center;
+    width: 100%;
   }
   .internalheading {
     color: white;
@@ -397,10 +415,7 @@ div.scrollmenu a:hover {
   overflow: auto;
 }
 
-.imgleft {
-  float: left;
-  margin-right: 10px;
-}
+
 
 .telescope {
   position: relative;
