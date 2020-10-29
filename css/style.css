@@ -67,16 +67,12 @@
   }
 
   .imgright {
-    float: right;
-    margin-left: 10px;
     width: 100%;
   }
   .imgleft {
-    margin-left: 10px;
     width: 100%;
   }
   .imgcenter {
-    float: center;
     width: 100%;
   }
   .internalheading {
