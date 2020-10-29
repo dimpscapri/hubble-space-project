@@ -25,6 +25,17 @@
     margin-left: 10px;
     width: 20%;
   }
+
+  .internalheading {
+    color: white;
+    font-size: 40px;
+    align-self: start;
+  }
+
+  .internalTitle {
+    color: cyan;
+    font-size: 80px;
+  }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -51,37 +62,17 @@
     margin-left: 10px;
     width: 40%;
   }
-}
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
-  .internalheading {
-    color: white;
-    font-size: 40px;
-    align-self: start;
-  }
-}
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
   .internalheading {
     color: white;
     font-size: 20px;
     align-self: start;
   }
-}
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
-  .internalTitle {
-    color: cyan;
-    font-size: 80px;
-  }
-}
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
   .internalTitle {
     color: cyan;
     font-size: 40px;
   }
 }
+
 
 .header {
   width: 100%;
