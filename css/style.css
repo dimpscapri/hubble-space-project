@@ -1,18 +1,31 @@
-.heading {
-  color: white;
-  font-size: 100px;
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .heading {
+    color: white;
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .heading {
+    color: white;
+    font-size: 30px;
+  }
 }
 .internalheading {
   color: white;
-  font-size: 40px;
+  font-size: 40vw;
   align-self: start;
 }
 .internalTitle {
   color:cyan;
-  font-size: 100px;
+  font-size: 100vw;
 }
 .header {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/star_bg.gif);
@@ -21,7 +34,7 @@
   background-attachment: fixed;
 }
 .exoplanetheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/exoplanet-header.jpg);
@@ -31,7 +44,7 @@
   background-attachment: fixed;
 }
 .navicheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/navic-satelite-header.jpg);
@@ -41,7 +54,7 @@
   background-attachment: fixed;
 }
 .aestroidbeltheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/aestroidbelt-header.jpg);
@@ -51,7 +64,7 @@
   background-attachment: fixed;
 }
 .factsheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/facts-header.jpg);
@@ -63,7 +76,7 @@
 
 
 .quizheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/quiz-header.jpg);
@@ -73,7 +86,7 @@
   background-attachment: fixed;
 }
 .roverheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/rover-header.jpg);
@@ -83,7 +96,7 @@
   background-attachment: fixed;
 }
 .hubbleheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/hubbleheader.jpg);
@@ -93,7 +106,7 @@
   background-attachment: fixed;
 }
 .haleboppheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/haleboppheader.jpg);
@@ -103,7 +116,7 @@
   background-attachment: fixed;
 }
 .constellationheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/constellation-header.jpg);
@@ -113,7 +126,7 @@
   background-attachment: fixed;
 }
 .galaxyheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/galaxy-header.jpg);
@@ -123,7 +136,7 @@
   background-attachment: fixed;
 }
 .dwarfplanetheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/dwarfplanet.jpg);
@@ -133,7 +146,7 @@
   background-attachment: fixed;
 }
 .issheader {
-  width: 100vmax;
+  width: 100%;
   height: 80%;
   background-color: black;
   background-image: url(../images/international-space-station-67647_1920.jpg);
@@ -142,12 +155,20 @@
   background-size: cover;
   background-attachment: fixed;
 }
-
+@media screen and (min-width: 601px) {
 .quote {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
 }
+}
+@media screen and (max-width: 600px) {
+  .quote {
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+  }
+  } 
 
 .whiteDiv {
   background-color: white;
@@ -155,39 +176,39 @@
   
 }
 .icons {
-  width: 18vmax;
+  width: 18%;
   font-weight: bold;
   text-align: center;
   display: inline-block;
 }
 .redbarparent{
-  width: 100vmax;
+  width: 100%;
   background-color: black;
 }
 .purplebar {
   display: inline-block;
-  width: 20vmax;
-  height: 100vmax;
-  padding: 5px;
+  width: 20%;
+  height: 100%;
+  padding: 5vw;
   text-align: center;
   
 }
 .purplebarsmalltxt {
-  font-size: 20vmax;
+  font-size: 20%;
   color: white;
 }
 .footer{
   background-color: #383838	;
   text-align: center;
   color: white;
-  border: 1px;
-  width: 100vmax;
+  border: 1vw;
+  width: 100%;
  
 }
 .middle{
   background-color: white;
   text-align: center;
-  width: 100vmax;
+  width: 100%;
 
 }
 .name{
@@ -204,7 +225,7 @@
 /*-------------------------------------------*/
 
 .counters::after {
-  font: 800 40px system-ui;
+  font: 800 40vw system-ui;
   content: counter(count);
   animation: counter 1s linear infinite alternate;
   counter-reset: count 0;
@@ -253,12 +274,12 @@ h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #roundeddiv {
-  border: 1px solid;
-  border-radius: 2px;
-  padding: 10px;
-  box-shadow: 5px 10px 8px #888888;
-  margin-left: 10px;
-  margin-right: 30px;
+  border: 1vw solid;
+  border-radius: 2vw;
+  padding: 10vw;
+  box-shadow: 5vw 10vw 8vw #888888;
+  margin-left: 10vw;
+  margin-right: 30vw;
   text-align: justify;
 }
 
@@ -269,14 +290,14 @@ body{
 .flex-container {
   display: flex;
   background-color:  #3d0066  ;
-  width: 100vmax;
+  width: 100%;
 }
 
 .flex-container > div {
   background-color: #3d0066;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+  margin: 10vw;
+  padding: 20vw;
+  font-size: 30vw;
   color: white;
   text-align: center;
 }
@@ -285,8 +306,8 @@ body{
 }
 
 .alien {
-  width: 100vmax;
-  height: 100px;
+  width: 100%;
+  height: 100vw;
   position: relative;
   animation-name: alien;
   animation-duration: 2s;
@@ -304,7 +325,7 @@ div.scrollmenu a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 12px;
+  padding: 12vw;
   text-decoration: none;
 }
 
@@ -320,10 +341,10 @@ div.scrollmenu a:hover {
   100% { transform: rotate(40deg);}
 }
 .dotted {
-  margin: 10px;
+  margin: 10vw;
   border-style: dotted;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 5vw;
+  padding: 10vw;
  
 }
 
@@ -333,11 +354,11 @@ div.scrollmenu a:hover {
 
 .imgleft {
   float: left;
-  margin-right: 10px;
+  margin-right: 10vw;
 }
 .imgright {
   float: right;
-  margin-left: 10px;
+  margin-left: 10vw;
 }
 
 .telescope {
@@ -346,7 +367,7 @@ div.scrollmenu a:hover {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   float: right;
-  margin-right: 10px;
+  margin-right: 10vw;
 }
 @keyframes telescope {
   0%   {transform: rotate(10deg);}
@@ -363,7 +384,7 @@ div.scrollmenu a:hover {
   
 }
 .dwarfplanet{
-  font-size: 18px;
+  font-size: 18vw;
 }
 
 section:after {
@@ -376,14 +397,14 @@ section:after {
   background-color: #777;
   color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 18vw;
   width: 95%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
-  margin-left: 40px;
-  margin-right: 40px;
+  font-size: 15vw;
+  margin-left: 40vw;
+  margin-right: 40vw;
 }
 
 .active, .collapsible:hover {
@@ -391,10 +412,34 @@ section:after {
 }
 
 .content {
-  padding: 0 18px;
+  padding: 0 18vw;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-  margin-left: 40px;
-  margin-right: 40px; 
+  margin-left: 40vw;
+  margin-right: 40vw; 
 }
+@media screen and (min-width: 601px) {
+.responsive {
+  width: 50%;
+  height: auto;
+}
+}
+@media screen and (max-width: 600px) {
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  }
+@media screen and (min-width: 601px) {
+.icons {
+  width: 15%;
+  height: auto;
+}
+}
+@media screen and (max-width: 600px) {
+  .icons {
+    width: 100%;
+    height: auto;
+  }
+  }
