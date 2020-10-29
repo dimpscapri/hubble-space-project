@@ -6,13 +6,11 @@ document.querySelectorAll('#nav').forEach((e) => {
     <a href="./haleboppcomet.html">Hale Bopp Commet</a>
     <a href="./dwarfplanet.html">Dwarf Planet</a>
     <a href="./constellation.html">Consetellation</a>
-    <a href="./galaxy.html">Galaxy</a>  
+    <a href="./galaxy.html">Galaxies</a>  
     <a href="./iss.html">ISS</a>
     <a href="./rover.html">Rover</a>
     <a href="./asteroidbelt.html">Asteroid Belt</a>
-    <a href="./NAVIC-satellite.html"> NavIC Satellite</a>
-    <a href="./quiz.html">Quiz</a>
-    <a href="./facts.html">Facts</a>
+    <a href="./NAVIC-satellite.html">NavIC</a>
     </div>
     `
 })
