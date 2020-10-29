@@ -18,6 +18,7 @@
   background-image: url(../images/star_bg.gif);
   color: white;
   text-align: center;
+  background-attachment: fixed;
 }
 .exoplanetheader {
   width: 100vmax;
@@ -27,6 +28,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .navicheader {
   width: 100vmax;
@@ -36,6 +38,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .aestroidbeltheader {
   width: 100vmax;
@@ -45,6 +48,17 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
+}
+.factsheader {
+  width: 100vmax;
+  height: 80%;
+  background-color: black;
+  background-image: url(../images/facts-header.jpg);
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -56,6 +70,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .roverheader {
   width: 100vmax;
@@ -65,6 +80,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .hubbleheader {
   width: 100vmax;
@@ -74,6 +90,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .haleboppheader {
   width: 100vmax;
@@ -83,6 +100,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .constellationheader {
   width: 100vmax;
@@ -92,6 +110,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .galaxyheader {
   width: 100vmax;
@@ -101,6 +120,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .dwarfplanetheader {
   width: 100vmax;
@@ -110,6 +130,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .issheader {
   width: 100vmax;
@@ -119,6 +140,7 @@
   color: white;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .quote {
@@ -348,4 +370,31 @@ section:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 95%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin-left: 40px;
+  margin-right: 40px; 
 }

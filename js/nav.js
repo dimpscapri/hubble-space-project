@@ -12,7 +12,7 @@ document.querySelectorAll('#nav').forEach((e) => {
     <a href="./asteroidbelt.html">Asteroid Belt</a>
     <a href="./NAVIC-satellite.html"> NavIC Satellite</a>
     <a href="./quiz.html">Quiz</a>
-    
+    <a href="./facts.html">Facts</a>
     </div>
     `
 })

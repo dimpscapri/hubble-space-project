@@ -1,0 +1,112 @@
+<!-- 
+    Hubble Space Tour
+    RISHAB ARORA
+-->
+<html>
+
+<head>
+    <title>HUBBLE SPACE TOUR</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body style="margin: 0px">
+    <div>
+        <div class="factsheader">
+            <span class="internalheading">HUBBLE SPACE TOUR</span><br />
+            <span class="internalTitle">Facts</span>
+            <br />
+            <br />
+            <span style="text-align: left"> <img src="../images/astro.png" /></span>
+        </div>
+        <div id="nav" style="width: 100vmax; height: 5%; background-color: #9d8dda">
+
+        </div>
+    </div>
+    <div class="flex-container">
+        &nbsp;
+
+    </div>
+
+
+    <h1>FACTS ABOUT HUBBLE</h1>
+    <button type="button" class="collapsible">Are the colors in Hubble images real?</button>
+    <div class="content">
+        <p>There are no natural color cameras aboard Hubble and there never have been. The optical cameras on board have
+            all been digital CCD cameras, which take images as grayscale pixels but use colored filters to isolate
+            different colors in each image.
+            <br><br>
+            Sometimes the color in the images is as natural as possible. However, the color given to the images is not
+            just artistic embellishment. The images are, indeed, downloaded as black and white, and color is added for a
+            number of different reasons — for example, to show the location of chemical elements and highlight features
+            so subdued that the human eye cannot see them.
+            <br><br>
+        </p>
+    </div>
+    <button type="button" class="collapsible">Can Hubble see Appolo landing site on moon?</button>
+    <div class="content">
+        <p>No, Hubble cannot take photos of the Apollo landing sites. An object on the Moon, even the size of a large
+            house, is too small to resolve. So, anything we left on the Moon cannot be resolved in any Hubble image. It
+            would just appear as a dot blended with its surroundings.</p>
+    </div>
+    <button type="button" class="collapsible">Can Hubble take picture of the Earth?</button>
+    <div class="content">
+        <p>The surface of the Earth is whizzing by as Hubble orbits, and the pointing system, designed to track the
+            distant stars, cannot track an object on the Earth. The shortest exposure time on any of the Hubble
+            instruments is 0.1 seconds, and in this time Hubble moves almost half a mile, about 700 meters. A picture
+            Hubble took of Earth would be completely streaked.</p>
+    </div>
+    <button type="button" class="collapsible">Can we see live pictures from Hubble?</button>
+    <div class="content">
+        <p>While there is no “real time” camera or webcam on board the telescope for live relay links, you can find out
+            what Hubble is observing at any time by visiting <a href="http://spacetelescopelive.org/"
+                target="_blank">Space Telescope Live</a>. Usually, Hubble is looking at these
+            targets for the first time, so the images you will see there are from other telescopes, but give you an idea
+            of where Hubble is looking.
+            <br><br>
+            The images that Hubble takes are digital pictures and spectra that are generally released to the public
+            after six months (to allow the investigators time to do their research). The data, which are transmitted
+            from the telescope in digital form, need to be converted from this digitized information by computers into
+            black-and-white photos. These are then enhanced to discern details in the images.</p>
+    </div>
+    <button type="button" class="collapsible">Are all Hubble data available is public?</button>
+    <div class="content">
+        <p>Yes … eventually! Astronomers who requested the data generally have six months to publish their findings
+            before the data are publicly released.
+            <br><br>
+            After new instruments were installed during servicing missions to Hubble, early release observations were
+            very quickly made public. These photos showed the world that the instruments were meeting expectations.
+            <br><br>
+            Hubble images produced by the Space Telescope Science Institute are covered by copyright law. This copyright
+            covers most images displayed on all of our websites. NASA holds worldwide copyright on publicly released
+            Hubble images, which means they are in the public domain and free of charge to use. All Hubble data becomes
+            non-proprietary after six months, and its archive can be freely accessed by anyone. However, the images
+            cannot be used to imply any endorsement of a person or product by NASA.</p>
+    </div>
+    </div>
+    <br /><br />
+    <div style="width: 100vmax; height: 5%; background-color: black"></div>
+
+    <div class="footer">
+        <span class="name">RISHAB ARORA</span><br />VIII C<br />OPG WORLD SCHOOL
+    </div>
+    <script src="../js/nav.js"></script>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
