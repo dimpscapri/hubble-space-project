@@ -239,6 +239,13 @@
 .whiteDiv {
   background-color: white;
   height: 20%;
+  text-align: center;
+}
+
+.marsDiv {
+  background-image: url(../images/marsDIV.jpg);
+  background-attachment: fixed;
+  height: 20%;
 }
 .icons {
   width: 18%;
@@ -504,7 +511,7 @@ section:after {
 }
 @media screen and (max-width: 600px) {
   .responsive {
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 }
